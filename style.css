@@ -1,0 +1,139 @@
+
+
+.header{
+    background: #FFFBF0;
+}
+
+.banner-text h1{
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #363958;
+}
+
+.banner-text h1 span{
+    color: #FABE4C
+}
+
+.product-card{
+    border: none;
+}
+
+.section-heading h2{
+    text-transform: uppercase;
+    font-family: oswald;
+    color: #363958;
+    padding: 20px 0px
+}
+
+.p-title{
+    color: #363958;
+    font-weight: 700;
+    font-size: 25px
+}
+
+.float-left.price h4 {
+    color: #FAC053;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: poppins;
+}
+
+.product-footer{
+    background: white;
+    border-top: 0px;
+}
+
+.product-btn {
+    background-image: linear-gradient(to top right,#819729, #bcdf31);
+    color: #fff;
+    padding: 10px 25px;
+    border:none;
+}
+
+.featured-section{
+    margin-top: 100px
+}
+
+.featured h4 {
+    color: #363958;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px
+}
+
+.feedback{
+    background-image: linear-gradient(to right top,#819729, #bcdf31);
+    padding: 100px;;
+}
+
+.inticators-style{
+    bottom: -80px!important;
+}
+
+.img-box{
+    width: 135px;
+    height: 135px;
+}
+
+.slide-content h5 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    color: #363958;
+}
+
+@media only screen and (min-width: 1170px){
+    .deksltop-hide{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .mobile-hide{
+        display: none;
+    }
+    .banner-text h1{
+        font-size: 36px;
+    }
+    .thumb{
+        margin-top: 50px;
+    }
+
+    .featured {
+        text-align: center;
+    }
+    .fetured-thumb img{
+        width: 36%!important;
+        margin-bottom: 20px;
+    }
+
+  }
+
+@media only screen and (max-width: 360px) {
+
+    .section-heading h2{
+        text-align: center;
+    }
+
+    .banner-text h1{
+        font-size: 36px;
+    }
+    .thumb{
+        margin-top: 50px;
+    }
+
+    .featured {
+        text-align: center;
+    }
+    .fetured-thumb img{
+        width: 36%!important;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+  }
